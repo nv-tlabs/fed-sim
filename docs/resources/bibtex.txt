@@ -1,0 +1,6 @@
+@article{li2020fed,
+  title={Fed-Sim: Federated Simulation for Medical Imaging},
+  author={Li, Daiqing and Kar, Amlan and Ravikumar, Nishant and Frangi, Alejandro F and Fidler, Sanja},
+  journal={arXiv preprint arXiv:2009.00668},
+  year={2020}
+}
