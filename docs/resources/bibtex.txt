@@ -1,6 +1,5 @@
-@article{li2020fed,
-  title={Fed-Sim: Federated Simulation for Medical Imaging},
-  author={Li, Daiqing and Kar, Amlan and Ravikumar, Nishant and Frangi, Alejandro F and Fidler, Sanja},
-  journal={arXiv preprint arXiv:2009.00668},
-  year={2020}
-}
+@article{li_kar_ravikumar_frangi_fidler_2020, 
+title={Federated Simulation for Medical Imaging}, 
+DOI={10.1007/978-3-030-59710-8_16}, 
+journal={Medical Image Computing and Computer Assisted Intervention – MICCAI 2020 Lecture Notes in Computer Science}, 
+author={Li, Daiqing and Kar, Amlan and Ravikumar, Nishant and Frangi, Alejandro F. and Fidler, Sanja}, year={2020}, pages={159–168}}

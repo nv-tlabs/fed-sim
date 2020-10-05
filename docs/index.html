@@ -117,6 +117,7 @@
   <head>
         <title>Fed-Sim</title>
         <meta property="og:title" content="Fed-Sim" />
+        <link rel="icon" href="./resources/nv_icon.png">
   </head>
 
   <body>
@@ -273,7 +274,7 @@
         <table align=center width=900>
             <center><h1>Paper</h1></center>
             <tr>
-                <td><a href="resources/Federated_Simulation_for_Medical_Imaging.pdf" target="_blank"><img style="height:180px; border: solid; border-radius:30px;" src="./resources/paper.png"/></a></td>
+                <td><a href="https://arxiv.org/abs/2009.00668" target="_blank"><img style="height:180px; border: solid; border-radius:30px;" src="./resources/paper.png"/></a></td>
                 <td><span style="font-size:18px">Daiqing Li, Amlan Kar, Nishant Ravikumar, Alejandro F Frangi, Sanja Fidler
                 <br><br>
                 Federated Simulation for Medical Imaging
@@ -288,13 +289,9 @@
             <tr>
                 <td>  
                     <span style="font-size:18px"><center>
-                        <a href="https://arxiv.org/abs/2009.00668">[Arxiv]</a>
+                        <a href="https://arxiv.org/abs/2009.00668">[Paper]</a>
                     </center></td>
-                <td>  
-                    <span style="font-size:18px"><center>
-                        <a href="resources/Federated_Simulation_for_Medical_Imaging.pdf">[Paper]</a>
-                    </center></td>
-                <td>  
+                <td>   
                     <span style="font-size:18px"><center>
                         <a href="resources/Federated_Simulation_for_Medical_Imaging_supp.pdf">[Supplement]</a>
                     </center></td>
@@ -329,11 +326,31 @@
                        <video width="800" controls muted>	
                            <source src="./resources/demo.mp4" type="video/mp4">	
                        </video>	
-
+                       
                     </center>	
                </td>	
 
             </tr>	
+            <tr>
+                <td>
+                    &nbsp;
+                    <!--you just need a space in a row-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span style="font-size:18px">
+                        Here we showcase an interactive simulation application of our approach using 
+                        NVIDIA Omniverse Kit. The users can adjust the shape parameters of a cardiac 
+                        mesh template and synthesize a novel (labeled) cardiac CT volume. Users can 
+                        view different slices along the z axis by adjusting the slice bar. Notice that 
+                        the generated volume and the input mesh are consistent across slices.
+                    </span>
+
+                </td>
+                
+            </tr>
+            
         </table>
         <br>
 
@@ -345,6 +362,31 @@
                       <img class="round" style="height:400" src="./resources/federated.png"/></a>
                     </center>
           </tr>
+          <tr>
+            <td>
+                &nbsp;
+                <!--you just need a space in a row-->
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <span style="font-size:18px">
+                    Medical data usually lives at multiple sites, and sharing is a problem due to patient privacy. 
+                    In our work, we learn to synthesize labeled CT volumes in a federated setting that is privacy preserving. 
+                    In the FL setup, we assume there is a central server that aggregates and maintains a global model for 
+                    the organ shape and material across sites, while each individual site has a local simulator with specific 
+                    device parameters and its own conditional GAN. The central server shares the global knowledge of shape and 
+                    material parameters across sites, which they use to train their enhancer using local data. This setting only 
+                    requires transmitting gradients with respect to the shape and material model parameters to learn a global 
+                    simulator, which we hypothesize should contain minimal information about individual patients. To train models 
+                    for downstream tasks, every site can simulate their own data and train their own unique task model, as opposed 
+                    to traditional FL where one model architecture and weights must be used and shared across sites and gradients 
+                    for the model itself must be transmitted.
+                </span>
+
+            </td>
+            
+        </tr>
         </table>
 
         <br>
